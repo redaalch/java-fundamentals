@@ -21,7 +21,7 @@ public class CollectionsDemo {
         for (Map.Entry calorieINfo : fruitCalories.entrySet()) {
             System.out.println(calorieINfo.getKey()+ ": " + calorieINfo.getValue());
         }
-        fruitCalories.forEach((k,v)-> System.out.println(k +": "+v)) ;
+        fruitCalories.forEach((k,v)-> System.out.println(k +": "+v));
         System.out.println(fruitCalories);
         System.out.println("banana calories "+fruitCalories.get("banana"));
         System.out.println("contains orange? "+fruitCalories.containsKey("orange"));
